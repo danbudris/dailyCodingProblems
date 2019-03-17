@@ -8,13 +8,13 @@ def multiplyArray(input):
         x = i*x
     return(x)
 
-# Solution 1: with multiplication
+# Solution 1: with division
 def main(input):
     x = multiplyArray(input)
     output = [x/i for i in input]
     return(output)
 
-# Solution 2: without multiplcation
+# Solution 2: without division
 def main2(input):
     output = []
     for i in range(len(input)):
